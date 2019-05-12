@@ -29,6 +29,9 @@ upper_case_full_names = []
 
 ```rb
 
+  upper_case_full_names = students.each {|std| puts std[:first_name].concat([:last_name]).upcase}
+
+
 [ 'AHMED ALTHAGAFI', 'NORAH ALSHEHRI', 'HANEEN ALGHAMDI' ]
 
 ```
